@@ -1,0 +1,9 @@
+public interface Resource{
+
+public boolean init();
+public List<Property> getProperties();
+public List<Operation> getOperations();
+public List<Resouce> getMustResources();
+public boolean reset();
+
+}
